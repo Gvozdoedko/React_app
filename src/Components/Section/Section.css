@@ -1,0 +1,12 @@
+section {
+    background-color: bisque;
+}
+.text_in_section {
+    font-size: 18px;
+}
+
+.btn-3 {
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}

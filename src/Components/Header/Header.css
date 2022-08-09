@@ -1,0 +1,25 @@
+header {
+    background: hsl(231, 41%, 44%);
+    grid-area: header;
+	padding: 5px;
+	display: flex;
+}
+.text {
+	margin: 10px 5px;
+	font-size: 36px;
+	color: white;
+	transition: all 0.3s ease;
+}
+.text:hover {
+	color: green;
+	cursor: pointer;
+}
+
+header > a > img {
+    margin: 2px;
+    width: 64px;
+    height: 64px;
+}
+header > a > img:hover {
+    border: 2px solid rgb(29, 27, 27);
+}
